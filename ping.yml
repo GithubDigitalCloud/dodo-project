@@ -1,0 +1,9 @@
+---
+- name: Sunil Bhoekan
+  hosts: all
+  gather_facts: false
+  become: false
+
+  tasks:
+  - name: Pinging Host
+    ping:
