@@ -1,0 +1,8 @@
+---
+- name: installng multiple packages
+  hosts: all
+  become: true
+  tasks:
+    - name: which user
+      shell:
+        whoami
